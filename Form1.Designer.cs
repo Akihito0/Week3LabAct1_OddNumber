@@ -289,13 +289,13 @@
             // 
             // btnSubmit
             // 
-            btnSubmit.Location = new Point(326, 4431);
-            btnSubmit.Name = "btnSubmit";
-            btnSubmit.Size = new Size(149, 66);
-            btnSubmit.TabIndex = 29;
-            btnSubmit.Text = "Submit";
-            btnSubmit.UseVisualStyleBackColor = true;
-            btnSubmit.Click += btnSubmit_Click;
+            btnNext2ndForm.Location = new Point(625, 760);
+            btnNext2ndForm.Name = "btnNext2ndForm";
+            btnNext2ndForm.Size = new Size(75, 37);
+            btnNext2ndForm.TabIndex = 9;
+            btnNext2ndForm.Text = "Next";
+            btnNext2ndForm.UseVisualStyleBackColor = true;
+            btnNext2ndForm.Click += btnNext2ndForm_Click;
             // 
             // panel2
             // 
@@ -312,51 +312,51 @@
             // 
             // radbtnNA
             // 
-            radbtnNA.AutoSize = true;
-            radbtnNA.Font = new Font("Segoe UI", 12F);
-            radbtnNA.Location = new Point(355, 99);
-            radbtnNA.Margin = new Padding(3, 4, 3, 4);
-            radbtnNA.Name = "radbtnNA";
-            radbtnNA.Size = new Size(208, 32);
-            radbtnNA.TabIndex = 4;
-            radbtnNA.Text = "Prefer not to answer";
-            radbtnNA.UseVisualStyleBackColor = true;
+            radioButton4.AutoSize = true;
+            radioButton4.Font = new Font("Segoe UI", 12F);
+            radioButton4.Location = new Point(311, 74);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(169, 25);
+            radioButton4.TabIndex = 4;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "Prefer not to answer";
+            radioButton4.UseVisualStyleBackColor = true;
             // 
             // radbtnMale
             // 
-            radbtnMale.AutoSize = true;
-            radbtnMale.Font = new Font("Segoe UI", 12F);
-            radbtnMale.Location = new Point(355, 57);
-            radbtnMale.Margin = new Padding(3, 4, 3, 4);
-            radbtnMale.Name = "radbtnMale";
-            radbtnMale.Size = new Size(76, 32);
-            radbtnMale.TabIndex = 3;
-            radbtnMale.Text = "Male";
-            radbtnMale.UseVisualStyleBackColor = true;
+            radioButton3.AutoSize = true;
+            radioButton3.Font = new Font("Segoe UI", 12F);
+            radioButton3.Location = new Point(311, 43);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(62, 25);
+            radioButton3.TabIndex = 3;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "Male";
+            radioButton3.UseVisualStyleBackColor = true;
             // 
             // radbtnNonbinary
             // 
-            radbtnNonbinary.AutoSize = true;
-            radbtnNonbinary.Font = new Font("Segoe UI", 12F);
-            radbtnNonbinary.Location = new Point(15, 99);
-            radbtnNonbinary.Margin = new Padding(3, 4, 3, 4);
-            radbtnNonbinary.Name = "radbtnNonbinary";
-            radbtnNonbinary.Size = new Size(133, 32);
-            radbtnNonbinary.TabIndex = 2;
-            radbtnNonbinary.Text = "Non-Binary";
-            radbtnNonbinary.UseVisualStyleBackColor = true;
+            radioButton2.AutoSize = true;
+            radioButton2.Font = new Font("Segoe UI", 12F);
+            radioButton2.Location = new Point(13, 74);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(108, 25);
+            radioButton2.TabIndex = 2;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Non-Binary";
+            radioButton2.UseVisualStyleBackColor = true;
             // 
             // radbtnFemale
             // 
-            radbtnFemale.AutoSize = true;
-            radbtnFemale.Font = new Font("Segoe UI", 12F);
-            radbtnFemale.Location = new Point(15, 57);
-            radbtnFemale.Margin = new Padding(3, 4, 3, 4);
-            radbtnFemale.Name = "radbtnFemale";
-            radbtnFemale.Size = new Size(95, 32);
-            radbtnFemale.TabIndex = 1;
-            radbtnFemale.Text = "Female";
-            radbtnFemale.UseVisualStyleBackColor = true;
+            radioButton1.AutoSize = true;
+            radioButton1.Font = new Font("Segoe UI", 12F);
+            radioButton1.Location = new Point(13, 43);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(78, 25);
+            radioButton1.TabIndex = 1;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Female";
+            radioButton1.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -384,63 +384,63 @@
             // 
             // radbtndivorced
             // 
-            radbtndivorced.AutoSize = true;
-            radbtndivorced.Font = new Font("Segoe UI", 12F);
-            radbtndivorced.Location = new Point(18, 140);
-            radbtndivorced.Margin = new Padding(3, 4, 3, 4);
-            radbtndivorced.Name = "radbtndivorced";
-            radbtndivorced.Size = new Size(112, 32);
-            radbtndivorced.TabIndex = 5;
-            radbtndivorced.Text = "Divorced";
-            radbtndivorced.UseVisualStyleBackColor = true;
+            radioButton14.AutoSize = true;
+            radioButton14.Font = new Font("Segoe UI", 12F);
+            radioButton14.Location = new Point(16, 105);
+            radioButton14.Name = "radioButton14";
+            radioButton14.Size = new Size(90, 25);
+            radioButton14.TabIndex = 5;
+            radioButton14.TabStop = true;
+            radioButton14.Text = "Divorced";
+            radioButton14.UseVisualStyleBackColor = true;
             // 
             // radbtninvalid4
             // 
-            radbtninvalid4.AutoSize = true;
-            radbtninvalid4.Font = new Font("Segoe UI", 12F);
-            radbtninvalid4.Location = new Point(359, 99);
-            radbtninvalid4.Margin = new Padding(3, 4, 3, 4);
-            radbtninvalid4.Name = "radbtninvalid4";
-            radbtninvalid4.Size = new Size(176, 32);
-            radbtninvalid4.TabIndex = 4;
-            radbtninvalid4.Text = "Prefer not to say";
-            radbtninvalid4.UseVisualStyleBackColor = true;
+            radioButton15.AutoSize = true;
+            radioButton15.Font = new Font("Segoe UI", 12F);
+            radioButton15.Location = new Point(314, 74);
+            radioButton15.Name = "radioButton15";
+            radioButton15.Size = new Size(142, 25);
+            radioButton15.TabIndex = 4;
+            radioButton15.TabStop = true;
+            radioButton15.Text = "Prefer not to say";
+            radioButton15.UseVisualStyleBackColor = true;
             // 
             // radbtnwidowed
             // 
-            radbtnwidowed.AutoSize = true;
-            radbtnwidowed.Font = new Font("Segoe UI", 12F);
-            radbtnwidowed.Location = new Point(359, 57);
-            radbtnwidowed.Margin = new Padding(3, 4, 3, 4);
-            radbtnwidowed.Name = "radbtnwidowed";
-            radbtnwidowed.Size = new Size(117, 32);
-            radbtnwidowed.TabIndex = 3;
-            radbtnwidowed.Text = "Widowed";
-            radbtnwidowed.UseVisualStyleBackColor = true;
+            radioButton16.AutoSize = true;
+            radioButton16.Font = new Font("Segoe UI", 12F);
+            radioButton16.Location = new Point(314, 43);
+            radioButton16.Name = "radioButton16";
+            radioButton16.Size = new Size(94, 25);
+            radioButton16.TabIndex = 3;
+            radioButton16.TabStop = true;
+            radioButton16.Text = "Widowed";
+            radioButton16.UseVisualStyleBackColor = true;
             // 
             // radbtnmarried
             // 
-            radbtnmarried.AutoSize = true;
-            radbtnmarried.Font = new Font("Segoe UI", 12F);
-            radbtnmarried.Location = new Point(18, 99);
-            radbtnmarried.Margin = new Padding(3, 4, 3, 4);
-            radbtnmarried.Name = "radbtnmarried";
-            radbtnmarried.Size = new Size(102, 32);
-            radbtnmarried.TabIndex = 2;
-            radbtnmarried.Text = "Married";
-            radbtnmarried.UseVisualStyleBackColor = true;
+            radioButton17.AutoSize = true;
+            radioButton17.Font = new Font("Segoe UI", 12F);
+            radioButton17.Location = new Point(16, 74);
+            radioButton17.Name = "radioButton17";
+            radioButton17.Size = new Size(83, 25);
+            radioButton17.TabIndex = 2;
+            radioButton17.TabStop = true;
+            radioButton17.Text = "Married";
+            radioButton17.UseVisualStyleBackColor = true;
             // 
             // radbtnsingle
             // 
-            radbtnsingle.AutoSize = true;
-            radbtnsingle.Font = new Font("Segoe UI", 12F);
-            radbtnsingle.Location = new Point(18, 57);
-            radbtnsingle.Margin = new Padding(3, 4, 3, 4);
-            radbtnsingle.Name = "radbtnsingle";
-            radbtnsingle.Size = new Size(87, 32);
-            radbtnsingle.TabIndex = 1;
-            radbtnsingle.Text = "Single";
-            radbtnsingle.UseVisualStyleBackColor = true;
+            radioButton18.AutoSize = true;
+            radioButton18.Font = new Font("Segoe UI", 12F);
+            radioButton18.Location = new Point(16, 43);
+            radioButton18.Name = "radioButton18";
+            radioButton18.Size = new Size(71, 25);
+            radioButton18.TabIndex = 1;
+            radioButton18.TabStop = true;
+            radioButton18.Text = "Single";
+            radioButton18.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -568,87 +568,87 @@
             // 
             // radbtn65
             // 
-            radbtn65.AutoSize = true;
-            radbtn65.Font = new Font("Segoe UI", 12F);
-            radbtn65.Location = new Point(359, 140);
-            radbtn65.Margin = new Padding(3, 4, 3, 4);
-            radbtn65.Name = "radbtn65";
-            radbtn65.Size = new Size(69, 32);
-            radbtn65.TabIndex = 7;
-            radbtn65.Text = "65+";
-            radbtn65.UseVisualStyleBackColor = true;
+            radioButton11.AutoSize = true;
+            radioButton11.Font = new Font("Segoe UI", 12F);
+            radioButton11.Location = new Point(314, 105);
+            radioButton11.Name = "radioButton11";
+            radioButton11.Size = new Size(57, 25);
+            radioButton11.TabIndex = 7;
+            radioButton11.TabStop = true;
+            radioButton11.Text = "65+";
+            radioButton11.UseVisualStyleBackColor = true;
             // 
             // radbtn44
             // 
-            radbtn44.AutoSize = true;
-            radbtn44.Font = new Font("Segoe UI", 12F);
-            radbtn44.Location = new Point(18, 181);
-            radbtn44.Margin = new Padding(3, 4, 3, 4);
-            radbtn44.Name = "radbtn44";
-            radbtn44.Size = new Size(85, 32);
-            radbtn44.TabIndex = 6;
-            radbtn44.Text = "35-44";
-            radbtn44.UseVisualStyleBackColor = true;
+            radioButton10.AutoSize = true;
+            radioButton10.Font = new Font("Segoe UI", 12F);
+            radioButton10.Location = new Point(16, 136);
+            radioButton10.Name = "radioButton10";
+            radioButton10.Size = new Size(70, 25);
+            radioButton10.TabIndex = 6;
+            radioButton10.TabStop = true;
+            radioButton10.Text = "35-44";
+            radioButton10.UseVisualStyleBackColor = true;
             // 
             // radbtn34
             // 
-            radbtn34.AutoSize = true;
-            radbtn34.Font = new Font("Segoe UI", 12F);
-            radbtn34.Location = new Point(18, 140);
-            radbtn34.Margin = new Padding(3, 4, 3, 4);
-            radbtn34.Name = "radbtn34";
-            radbtn34.Size = new Size(85, 32);
-            radbtn34.TabIndex = 5;
-            radbtn34.Text = "25-34";
-            radbtn34.UseVisualStyleBackColor = true;
+            radioButton9.AutoSize = true;
+            radioButton9.Font = new Font("Segoe UI", 12F);
+            radioButton9.Location = new Point(16, 105);
+            radioButton9.Name = "radioButton9";
+            radioButton9.Size = new Size(70, 25);
+            radioButton9.TabIndex = 5;
+            radioButton9.TabStop = true;
+            radioButton9.Text = "25-34";
+            radioButton9.UseVisualStyleBackColor = true;
             // 
             // radbtn64
             // 
-            radbtn64.AutoSize = true;
-            radbtn64.Font = new Font("Segoe UI", 12F);
-            radbtn64.Location = new Point(359, 99);
-            radbtn64.Margin = new Padding(3, 4, 3, 4);
-            radbtn64.Name = "radbtn64";
-            radbtn64.Size = new Size(85, 32);
-            radbtn64.TabIndex = 4;
-            radbtn64.Text = "55-64";
-            radbtn64.UseVisualStyleBackColor = true;
+            radioButton5.AutoSize = true;
+            radioButton5.Font = new Font("Segoe UI", 12F);
+            radioButton5.Location = new Point(314, 74);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Size = new Size(70, 25);
+            radioButton5.TabIndex = 4;
+            radioButton5.TabStop = true;
+            radioButton5.Text = "55-64";
+            radioButton5.UseVisualStyleBackColor = true;
             // 
             // radbtn54
             // 
-            radbtn54.AutoSize = true;
-            radbtn54.Font = new Font("Segoe UI", 12F);
-            radbtn54.Location = new Point(359, 57);
-            radbtn54.Margin = new Padding(3, 4, 3, 4);
-            radbtn54.Name = "radbtn54";
-            radbtn54.Size = new Size(85, 32);
-            radbtn54.TabIndex = 3;
-            radbtn54.Text = "45-54";
-            radbtn54.UseVisualStyleBackColor = true;
+            radioButton6.AutoSize = true;
+            radioButton6.Font = new Font("Segoe UI", 12F);
+            radioButton6.Location = new Point(314, 43);
+            radioButton6.Name = "radioButton6";
+            radioButton6.Size = new Size(70, 25);
+            radioButton6.TabIndex = 3;
+            radioButton6.TabStop = true;
+            radioButton6.Text = "45-54";
+            radioButton6.UseVisualStyleBackColor = true;
             // 
             // radbtn24
             // 
-            radbtn24.AutoSize = true;
-            radbtn24.Font = new Font("Segoe UI", 12F);
-            radbtn24.Location = new Point(18, 99);
-            radbtn24.Margin = new Padding(3, 4, 3, 4);
-            radbtn24.Name = "radbtn24";
-            radbtn24.Size = new Size(85, 32);
-            radbtn24.TabIndex = 2;
-            radbtn24.Text = "18-24";
-            radbtn24.UseVisualStyleBackColor = true;
+            radioButton7.AutoSize = true;
+            radioButton7.Font = new Font("Segoe UI", 12F);
+            radioButton7.Location = new Point(16, 74);
+            radioButton7.Name = "radioButton7";
+            radioButton7.Size = new Size(70, 25);
+            radioButton7.TabIndex = 2;
+            radioButton7.TabStop = true;
+            radioButton7.Text = "18-24";
+            radioButton7.UseVisualStyleBackColor = true;
             // 
             // radbtn17
             // 
-            radbtn17.AutoSize = true;
-            radbtn17.Font = new Font("Segoe UI", 12F);
-            radbtn17.Location = new Point(18, 57);
-            radbtn17.Margin = new Padding(3, 4, 3, 4);
-            radbtn17.Name = "radbtn17";
-            radbtn17.Size = new Size(74, 32);
-            radbtn17.TabIndex = 1;
-            radbtn17.Text = "0-17";
-            radbtn17.UseVisualStyleBackColor = true;
+            radioButton8.AutoSize = true;
+            radioButton8.Font = new Font("Segoe UI", 12F);
+            radioButton8.Location = new Point(16, 43);
+            radioButton8.Name = "radioButton8";
+            radioButton8.Size = new Size(61, 25);
+            radioButton8.TabIndex = 1;
+            radioButton8.TabStop = true;
+            radioButton8.Text = "0-17";
+            radioButton8.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -678,87 +678,87 @@
             // 
             // radbtninvalid3
             // 
-            radbtninvalid3.AutoSize = true;
-            radbtninvalid3.Font = new Font("Segoe UI", 12F);
-            radbtninvalid3.Location = new Point(359, 140);
-            radbtninvalid3.Margin = new Padding(3, 4, 3, 4);
-            radbtninvalid3.Name = "radbtninvalid3";
-            radbtninvalid3.Size = new Size(176, 32);
-            radbtninvalid3.TabIndex = 7;
-            radbtninvalid3.Text = "Prefer not to say";
-            radbtninvalid3.UseVisualStyleBackColor = true;
+            radioButton23.AutoSize = true;
+            radioButton23.Font = new Font("Segoe UI", 12F);
+            radioButton23.Location = new Point(314, 105);
+            radioButton23.Name = "radioButton23";
+            radioButton23.Size = new Size(142, 25);
+            radioButton23.TabIndex = 7;
+            radioButton23.TabStop = true;
+            radioButton23.Text = "Prefer not to say";
+            radioButton23.UseVisualStyleBackColor = true;
             // 
             // radbtn75k
             // 
-            radbtn75k.AutoSize = true;
-            radbtn75k.Font = new Font("Segoe UI", 12F);
-            radbtn75k.Location = new Point(359, 57);
-            radbtn75k.Margin = new Padding(3, 4, 3, 4);
-            radbtn75k.Name = "radbtn75k";
-            radbtn75k.Size = new Size(181, 32);
-            radbtn75k.TabIndex = 6;
-            radbtn75k.Text = "$75,000-$99,999";
-            radbtn75k.UseVisualStyleBackColor = true;
+            radioButton22.AutoSize = true;
+            radioButton22.Font = new Font("Segoe UI", 12F);
+            radioButton22.Location = new Point(314, 43);
+            radioButton22.Name = "radioButton22";
+            radioButton22.Size = new Size(148, 25);
+            radioButton22.TabIndex = 6;
+            radioButton22.TabStop = true;
+            radioButton22.Text = "$75,000-$99,999";
+            radioButton22.UseVisualStyleBackColor = true;
             // 
             // radbtn50k
             // 
-            radbtn50k.AutoSize = true;
-            radbtn50k.Font = new Font("Segoe UI", 12F);
-            radbtn50k.Location = new Point(18, 181);
-            radbtn50k.Margin = new Padding(3, 4, 3, 4);
-            radbtn50k.Name = "radbtn50k";
-            radbtn50k.Size = new Size(181, 32);
-            radbtn50k.TabIndex = 5;
-            radbtn50k.Text = "$50,000-$74,999";
-            radbtn50k.UseVisualStyleBackColor = true;
+            radioButton12.AutoSize = true;
+            radioButton12.Font = new Font("Segoe UI", 12F);
+            radioButton12.Location = new Point(16, 136);
+            radioButton12.Name = "radioButton12";
+            radioButton12.Size = new Size(148, 25);
+            radioButton12.TabIndex = 5;
+            radioButton12.TabStop = true;
+            radioButton12.Text = "$50,000-$74,999";
+            radioButton12.UseVisualStyleBackColor = true;
             // 
             // radbtn100k
             // 
-            radbtn100k.AutoSize = true;
-            radbtn100k.Font = new Font("Segoe UI", 12F);
-            radbtn100k.Location = new Point(359, 99);
-            radbtn100k.Margin = new Padding(3, 4, 3, 4);
-            radbtn100k.Name = "radbtn100k";
-            radbtn100k.Size = new Size(189, 32);
-            radbtn100k.TabIndex = 4;
-            radbtn100k.Text = "$100,000 or more";
-            radbtn100k.UseVisualStyleBackColor = true;
+            radioButton13.AutoSize = true;
+            radioButton13.Font = new Font("Segoe UI", 12F);
+            radioButton13.Location = new Point(314, 74);
+            radioButton13.Name = "radioButton13";
+            radioButton13.Size = new Size(154, 25);
+            radioButton13.TabIndex = 4;
+            radioButton13.TabStop = true;
+            radioButton13.Text = "$100,000 or more";
+            radioButton13.UseVisualStyleBackColor = true;
             // 
             // radbtn10k
             // 
-            radbtn10k.AutoSize = true;
-            radbtn10k.Font = new Font("Segoe UI", 12F);
-            radbtn10k.Location = new Point(18, 99);
-            radbtn10k.Margin = new Padding(3, 4, 3, 4);
-            radbtn10k.Name = "radbtn10k";
-            radbtn10k.Size = new Size(191, 32);
-            radbtn10k.TabIndex = 3;
-            radbtn10k.Text = "$10,000 - $24,999";
-            radbtn10k.UseVisualStyleBackColor = true;
+            radioButton19.AutoSize = true;
+            radioButton19.Font = new Font("Segoe UI", 12F);
+            radioButton19.Location = new Point(16, 74);
+            radioButton19.Name = "radioButton19";
+            radioButton19.Size = new Size(156, 25);
+            radioButton19.TabIndex = 3;
+            radioButton19.TabStop = true;
+            radioButton19.Text = "$10,000 - $24,999";
+            radioButton19.UseVisualStyleBackColor = true;
             // 
             // radbtn25k
             // 
-            radbtn25k.AutoSize = true;
-            radbtn25k.Font = new Font("Segoe UI", 12F);
-            radbtn25k.Location = new Point(18, 140);
-            radbtn25k.Margin = new Padding(3, 4, 3, 4);
-            radbtn25k.Name = "radbtn25k";
-            radbtn25k.Size = new Size(181, 32);
-            radbtn25k.TabIndex = 2;
-            radbtn25k.Text = "$25,000-$49,999";
-            radbtn25k.UseVisualStyleBackColor = true;
+            radioButton20.AutoSize = true;
+            radioButton20.Font = new Font("Segoe UI", 12F);
+            radioButton20.Location = new Point(16, 105);
+            radioButton20.Name = "radioButton20";
+            radioButton20.Size = new Size(148, 25);
+            radioButton20.TabIndex = 2;
+            radioButton20.TabStop = true;
+            radioButton20.Text = "$25,000-$49,999";
+            radioButton20.UseVisualStyleBackColor = true;
             // 
             // radbtn9k
             // 
-            radbtn9k.AutoSize = true;
-            radbtn9k.Font = new Font("Segoe UI", 12F);
-            radbtn9k.Location = new Point(18, 57);
-            radbtn9k.Margin = new Padding(3, 4, 3, 4);
-            radbtn9k.Name = "radbtn9k";
-            radbtn9k.Size = new Size(152, 32);
-            radbtn9k.TabIndex = 1;
-            radbtn9k.Text = "$9,999 or less";
-            radbtn9k.UseVisualStyleBackColor = true;
+            radioButton21.AutoSize = true;
+            radioButton21.Font = new Font("Segoe UI", 12F);
+            radioButton21.Location = new Point(16, 43);
+            radioButton21.Name = "radioButton21";
+            radioButton21.Size = new Size(125, 25);
+            radioButton21.TabIndex = 1;
+            radioButton21.TabStop = true;
+            radioButton21.Text = "$9,999 or less";
+            radioButton21.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -2836,24 +2836,11 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
-            ClientSize = new Size(870, 867);
-            Controls.Add(panel18);
-            Controls.Add(panel14);
-            Controls.Add(panel16);
-            Controls.Add(panel15);
-            Controls.Add(panel13);
-            Controls.Add(panel11);
-            Controls.Add(panel10);
-            Controls.Add(panel9);
-            Controls.Add(panel8);
-            Controls.Add(panel6);
-            Controls.Add(panel7);
-            Controls.Add(panel5);
+            ClientSize = new Size(741, 650);
             Controls.Add(GroupMaritalStatus);
             Controls.Add(panel3);
             Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.Fixed3D;
-            Margin = new Padding(3, 4, 3, 4);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
