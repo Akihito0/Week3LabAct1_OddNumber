@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            button1 = new Button();
+            btnNext2ndForm = new Button();
             panel2 = new Panel();
             radioButton4 = new RadioButton();
             radioButton3 = new RadioButton();
@@ -54,7 +54,9 @@
             radioButton7 = new RadioButton();
             radioButton8 = new RadioButton();
             label4 = new Label();
-            panel5 = new Panel();
+            GroupMaritalStatus = new Panel();
+            radioButton23 = new RadioButton();
+            radioButton22 = new RadioButton();
             radioButton12 = new RadioButton();
             radioButton13 = new RadioButton();
             radioButton19 = new RadioButton();
@@ -65,29 +67,30 @@
             panel2.SuspendLayout();
             panel4.SuspendLayout();
             panel3.SuspendLayout();
-            panel5.SuspendLayout();
+            GroupMaritalStatus.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.Controls.Add(button1);
+            panel1.Controls.Add(btnNext2ndForm);
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(panel4);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
             panel1.Location = new Point(12, 12);
             panel1.Name = "panel1";
-            panel1.Size = new Size(852, 822);
+            panel1.Size = new Size(712, 800);
             panel1.TabIndex = 0;
             // 
-            // button1
+            // btnNext2ndForm
             // 
-            button1.Location = new Point(625, 733);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 37);
-            button1.TabIndex = 9;
-            button1.Text = "Next";
-            button1.UseVisualStyleBackColor = true;
+            btnNext2ndForm.Location = new Point(625, 760);
+            btnNext2ndForm.Name = "btnNext2ndForm";
+            btnNext2ndForm.Size = new Size(75, 37);
+            btnNext2ndForm.TabIndex = 9;
+            btnNext2ndForm.Text = "Next";
+            btnNext2ndForm.UseVisualStyleBackColor = true;
+            btnNext2ndForm.Click += btnNext2ndForm_Click;
             // 
             // panel2
             // 
@@ -152,10 +155,10 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.Location = new Point(3, 10);
             label3.Name = "label3";
-            label3.Size = new Size(158, 21);
+            label3.Size = new Size(164, 21);
             label3.TabIndex = 0;
             label3.Text = "What is your gender?";
             // 
@@ -235,10 +238,10 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.Location = new Point(3, 10);
             label5.Name = "label5";
-            label5.Size = new Size(203, 21);
+            label5.Size = new Size(208, 21);
             label5.TabIndex = 0;
             label5.Text = "What is your marital status?";
             // 
@@ -363,36 +366,62 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.Location = new Point(3, 10);
             label4.Name = "label4";
-            label4.Size = new Size(178, 21);
+            label4.Size = new Size(184, 21);
             label4.TabIndex = 0;
             label4.Text = "What is your age range?";
             // 
-            // panel5
+            // GroupMaritalStatus
             // 
-            panel5.Controls.Add(radioButton12);
-            panel5.Controls.Add(radioButton13);
-            panel5.Controls.Add(radioButton19);
-            panel5.Controls.Add(radioButton20);
-            panel5.Controls.Add(radioButton21);
-            panel5.Controls.Add(label6);
-            panel5.Location = new Point(12, 589);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(700, 150);
-            panel5.TabIndex = 9;
+            GroupMaritalStatus.Controls.Add(radioButton23);
+            GroupMaritalStatus.Controls.Add(radioButton22);
+            GroupMaritalStatus.Controls.Add(radioButton12);
+            GroupMaritalStatus.Controls.Add(radioButton13);
+            GroupMaritalStatus.Controls.Add(radioButton19);
+            GroupMaritalStatus.Controls.Add(radioButton20);
+            GroupMaritalStatus.Controls.Add(radioButton21);
+            GroupMaritalStatus.Controls.Add(label6);
+            GroupMaritalStatus.Location = new Point(12, 589);
+            GroupMaritalStatus.Name = "GroupMaritalStatus";
+            GroupMaritalStatus.Size = new Size(700, 175);
+            GroupMaritalStatus.TabIndex = 9;
+            // 
+            // radioButton23
+            // 
+            radioButton23.AutoSize = true;
+            radioButton23.Font = new Font("Segoe UI", 12F);
+            radioButton23.Location = new Point(314, 105);
+            radioButton23.Name = "radioButton23";
+            radioButton23.Size = new Size(142, 25);
+            radioButton23.TabIndex = 7;
+            radioButton23.TabStop = true;
+            radioButton23.Text = "Prefer not to say";
+            radioButton23.UseVisualStyleBackColor = true;
+            // 
+            // radioButton22
+            // 
+            radioButton22.AutoSize = true;
+            radioButton22.Font = new Font("Segoe UI", 12F);
+            radioButton22.Location = new Point(314, 43);
+            radioButton22.Name = "radioButton22";
+            radioButton22.Size = new Size(148, 25);
+            radioButton22.TabIndex = 6;
+            radioButton22.TabStop = true;
+            radioButton22.Text = "$75,000-$99,999";
+            radioButton22.UseVisualStyleBackColor = true;
             // 
             // radioButton12
             // 
             radioButton12.AutoSize = true;
             radioButton12.Font = new Font("Segoe UI", 12F);
-            radioButton12.Location = new Point(16, 105);
+            radioButton12.Location = new Point(16, 136);
             radioButton12.Name = "radioButton12";
-            radioButton12.Size = new Size(90, 25);
+            radioButton12.Size = new Size(148, 25);
             radioButton12.TabIndex = 5;
             radioButton12.TabStop = true;
-            radioButton12.Text = "Divorced";
+            radioButton12.Text = "$50,000-$74,999";
             radioButton12.UseVisualStyleBackColor = true;
             // 
             // radioButton13
@@ -401,34 +430,34 @@
             radioButton13.Font = new Font("Segoe UI", 12F);
             radioButton13.Location = new Point(314, 74);
             radioButton13.Name = "radioButton13";
-            radioButton13.Size = new Size(142, 25);
+            radioButton13.Size = new Size(154, 25);
             radioButton13.TabIndex = 4;
             radioButton13.TabStop = true;
-            radioButton13.Text = "Prefer not to say";
+            radioButton13.Text = "$100,000 or more";
             radioButton13.UseVisualStyleBackColor = true;
             // 
             // radioButton19
             // 
             radioButton19.AutoSize = true;
             radioButton19.Font = new Font("Segoe UI", 12F);
-            radioButton19.Location = new Point(314, 43);
+            radioButton19.Location = new Point(16, 74);
             radioButton19.Name = "radioButton19";
-            radioButton19.Size = new Size(94, 25);
+            radioButton19.Size = new Size(156, 25);
             radioButton19.TabIndex = 3;
             radioButton19.TabStop = true;
-            radioButton19.Text = "Widowed";
+            radioButton19.Text = "$10,000 - $24,999";
             radioButton19.UseVisualStyleBackColor = true;
             // 
             // radioButton20
             // 
             radioButton20.AutoSize = true;
             radioButton20.Font = new Font("Segoe UI", 12F);
-            radioButton20.Location = new Point(16, 74);
+            radioButton20.Location = new Point(16, 105);
             radioButton20.Name = "radioButton20";
-            radioButton20.Size = new Size(83, 25);
+            radioButton20.Size = new Size(148, 25);
             radioButton20.TabIndex = 2;
             radioButton20.TabStop = true;
-            radioButton20.Text = "Married";
+            radioButton20.Text = "$25,000-$49,999";
             radioButton20.UseVisualStyleBackColor = true;
             // 
             // radioButton21
@@ -437,34 +466,37 @@
             radioButton21.Font = new Font("Segoe UI", 12F);
             radioButton21.Location = new Point(16, 43);
             radioButton21.Name = "radioButton21";
-            radioButton21.Size = new Size(71, 25);
+            radioButton21.Size = new Size(125, 25);
             radioButton21.TabIndex = 1;
             radioButton21.TabStop = true;
-            radioButton21.Text = "Single";
+            radioButton21.Text = "$9,999 or less";
             radioButton21.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.Location = new Point(3, 10);
             label6.Name = "label6";
-            label6.Size = new Size(203, 21);
+            label6.Size = new Size(262, 21);
             label6.TabIndex = 0;
-            label6.Text = "What is your marital status?";
+            label6.Text = "What is your annual income range?";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
-            ClientSize = new Size(741, 538);
-            Controls.Add(panel5);
+            ClientSize = new Size(741, 650);
+            Controls.Add(GroupMaritalStatus);
             Controls.Add(panel3);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Market Research Survey";
+            Load += Form1_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
@@ -473,8 +505,8 @@
             panel4.PerformLayout();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
+            GroupMaritalStatus.ResumeLayout(false);
+            GroupMaritalStatus.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -505,13 +537,15 @@
         private RadioButton radioButton17;
         private RadioButton radioButton18;
         private Label label5;
-        private Button button1;
-        private Panel panel5;
+        private Button btnNext2ndForm;
+        private Panel GroupMaritalStatus;
         private RadioButton radioButton12;
         private RadioButton radioButton13;
         private RadioButton radioButton19;
         private RadioButton radioButton20;
         private RadioButton radioButton21;
         private Label label6;
+        private RadioButton radioButton23;
+        private RadioButton radioButton22;
     }
 }
