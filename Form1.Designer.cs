@@ -289,13 +289,6 @@
             // 
             // btnSubmit
             // 
-            btnNext2ndForm.Location = new Point(625, 760);
-            btnNext2ndForm.Name = "btnNext2ndForm";
-            btnNext2ndForm.Size = new Size(75, 37);
-            btnNext2ndForm.TabIndex = 9;
-            btnNext2ndForm.Text = "Next";
-            btnNext2ndForm.UseVisualStyleBackColor = true;
-            btnNext2ndForm.Click += btnNext2ndForm_Click;
             // 
             // panel2
             // 
